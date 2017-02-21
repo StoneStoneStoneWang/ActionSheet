@@ -11,6 +11,12 @@ enum TSActionSheetDismissType: Int {
     case TapDarkShadow
     case Item
 }
+enum TSAlertActionType: Int {
+    case Confirm
+    
+    case Cancle
+}
+
 /*
  if dismissType ==  .TapDarkShadow buttonIndex = nil
  if dismissType ==  .Button buttonIndex = button.tag
