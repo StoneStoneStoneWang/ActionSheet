@@ -159,6 +159,8 @@ extension TSActionSheet {
         
         hidden = true
         
+        darkShadowView.alpha = 0
+        
         darkShadowView.frame = bounds
         
         darkShadowView.backgroundColor = RGBColor(30, g: 30, b: 30)
